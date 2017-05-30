@@ -4,6 +4,7 @@
     "type": "typo3-cms-extension",
     "homepage": "http://thorsten-blei.de",
     "preferred-install": "dist",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.0.0",
         "typo3/cms": ">=7.6.13, <7.6.99|^8.4.1"
@@ -15,4 +16,9 @@
     "require-dev": {
         "fluidtypo3/development": "^3.0"
     }
+    "autoload-dev": {
+         "psr-4": {
+         "TYPO3\\CMS\\Core\\Tests\\": "typo3/sysext/core/Tests/",
+         "plumbum75dd\\tblPageTemplate\\": "typo3conf/ext/tblPageTemplate/Classes/"
+     }
 }
