@@ -9,13 +9,6 @@
         "php": ">=7.0.0",
         "typo3/cms": ">=7.6.13, <7.6.99|^8.4.1"
     },
-    "replace": {
-        "flux": "self.version",
-        "typo3-ter/flux": "self.version"
-    },
-    "require-dev": {
-        "fluidtypo3/development": "^3.0"
-    },
     "autoload-dev": {
          "psr-4": {
          "TYPO3\\CMS\\Core\\Tests\\": "typo3/sysext/core/Tests/",
